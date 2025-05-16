@@ -12,12 +12,20 @@
 ```
 
 ```text
-server1:10080: {
-  "code": 0,
-  "result": "OK"
-}
-server2:10080: {
-  "code": 0,
-  "result": "OK"
+{
+  "server1:10080": {
+    "code": 0,
+    "result": "OK"
+  }
+  "server2:10080": {
+    "code": 0,
+    "result": "OK"
+  }
 }
 ```
+
+### オプション
+
+- port ポート指定
+- timeout タイムアウト時刻("2s"で2秒)
+- output レスポンスをファイルに保存
